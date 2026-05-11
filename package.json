@@ -1,17 +1,18 @@
 {
-  "name": "demo",
-  "version": "1.0.0",
-  "description": "Test project",
-  "license": "ISC",
-  "author": "Maciej",
-  "type": "commonjs",
-  "main": "main.js",
+  "name": "vite-project",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "start": "node main.js",
+    "dev": "vite",
     "build": "vite build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "preview": "vite preview"
   },
   "devDependencies": {
     "vite": "^8.0.10"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.2.4",
+    "tailwindcss": "^4.2.4"
   }
 }
